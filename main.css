@@ -1,0 +1,103 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.blank {
+    width: 100%;
+    height:10%
+}
+
+.row {
+    width: 84%;
+    height: 50%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.long-column {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.column {
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  
+#PlaceHolder_0, #PlaceHolder_1, #PlaceHolder_2,
+ #PlaceHolder_3, #PlaceHolder_4,
+ #PlaceHolder_5, #PlaceHolder_6 {
+    height: 100%;
+}
+
+
+
+.imageContainer {
+    width: 100%;
+
+}
+
+.image_01 {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/img_02.png');
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image_02 {
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-image: url('./assets/img_03.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    font-weight: 1000;
+    font-size: 19px;
+}
+
+a.underlined {
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+a.good {
+    font-weight: 1000;
+    color: red
+}
+
+a.bad {
+    font-weight: 1000;
+    color: green
+}
+
+
+.textBlock {
+    font-weight: 500;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+    /* text-align: center; */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+} */
